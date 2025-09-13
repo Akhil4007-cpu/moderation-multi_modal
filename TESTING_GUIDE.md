@@ -256,6 +256,90 @@ python -c "import ultralytics, cv2; print('ultralytics:', ultralytics.__version_
 4. **For Accuracy**: Increase confidence thresholds and use larger models
 5. **For Batch**: Use `--clean_outputs` to avoid storage buildup
 
+## ⚠️ Important: Confidence Threshold Guidelines
+
+### Understanding Detection Sensitivity
+
+The system uses different confidence thresholds that can dramatically affect results:
+
+#### **Preset Comparison**
+```bash
+# STRICT (High Precision, May Miss Detections)
+python run.py --run_all --source video.mp4 --preset video_strict
+# Requires ~90%+ confidence, good for production/security
+
+# RELAXED (High Sensitivity, More Detections)  
+python run.py --run_all --source image.jpg --preset image_relaxed
+# Accepts ~30%+ confidence, good for testing/analysis
+```
+
+#### **Manual Confidence Control**
+```bash
+# Lower thresholds for better detection (recommended for testing)
+python run.py --category weapon --source media.jpg --weapon_conf 0.3 --weapon_hard 0.5
+
+# Higher thresholds for production use
+python run.py --category weapon --source media.jpg --weapon_conf 0.8 --weapon_hard 0.9
+```
+
+### 🎯 **Recommended Settings by Use Case**
+
+| Use Case | Media Type | Preset | Additional Flags | Why |
+|----------|------------|--------|------------------|-----|
+| **Testing/Analysis** | Images | `image_relaxed` | `--objects_conf 0.3 --weapon_conf 0.3` | Catch more detections |
+| **Testing/Analysis** | Videos | `image_relaxed` | `--objects_conf 0.3 --weapon_conf 0.3 --sample_secs 1.0` | Better detection sensitivity |
+| **Security/Production** | Images | `video_strict` | Default thresholds | High precision required |
+| **Security/Production** | Videos | `video_strict` | `--sample_secs 2.0` | Temporal consistency |
+| **Content Moderation** | Images | `image_relaxed` | `--nsfw_conf 0.4 --fight_conf 0.4` | Better coverage |
+| **Content Moderation** | Videos | `image_relaxed` | `--nsfw_conf 0.4 --sample_secs 1.5` | Comprehensive scanning |
+| **Real-time Monitoring** | Both | Custom | `--conf 0.5 --imgsz 416` | Balance speed/accuracy |
+
+### 🚨 **Common Issues & Solutions**
+
+#### "No Detections Found" - Images
+```bash
+# Problem: Thresholds too high
+python run.py --run_all --source image.jpg --preset video_strict
+# Result: {} (empty)
+
+# Solution: Lower confidence thresholds
+python run.py --run_all --source image.jpg --preset image_relaxed --objects_conf 0.3 --weapon_conf 0.3
+# Result: Detections found!
+```
+
+#### "No Detections Found" - Videos
+```bash
+# Problem: Video strict preset filtering detections
+python run.py --run_all --source video.mp4 --preset video_strict
+# Result: {} (empty)
+
+# Solution: Use relaxed preset for videos too
+python run.py --run_all --source video.mp4 --preset image_relaxed --objects_conf 0.3 --weapon_conf 0.3 --sample_secs 1.0
+# Result: Detections found in video frames!
+```
+
+#### "Too Many False Positives" - Images
+```bash
+# Problem: Thresholds too low
+python run.py --run_all --source image.jpg --fire_conf 0.1 --weapon_conf 0.1
+# Result: Many false detections
+
+# Solution: Increase thresholds
+python run.py --run_all --source image.jpg --fire_conf 0.7 --weapon_conf 0.8
+# Result: Only high-confidence detections
+```
+
+#### "Too Many False Positives" - Videos
+```bash
+# Problem: Low confidence + frequent sampling
+python run.py --run_all --source video.mp4 --preset image_relaxed --sample_secs 0.5
+# Result: Too many detections across frames
+
+# Solution: Higher confidence + less frequent sampling
+python run.py --run_all --source video.mp4 --weapon_conf 0.6 --sample_secs 2.0
+# Result: More reliable detections
+```
+
 ## 🎯 Quick Test Script
 
 Create a test script `quick_test.py`:
