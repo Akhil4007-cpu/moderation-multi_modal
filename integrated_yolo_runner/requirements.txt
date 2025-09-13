@@ -1,0 +1,11 @@
+ultralytics==8.3.58
+opencv-python==4.10.0.84
+Pillow>=10.0.0
+# Optional if you plan to use HEIF/HEIC images
+pillow-heif>=0.21.0
+
+# IMPORTANT: Install PyTorch separately for your platform (CPU/CUDA). Examples:
+# CPU only:
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+# CUDA 12.1 (adjust to your GPU/CUDA version):
+#   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121

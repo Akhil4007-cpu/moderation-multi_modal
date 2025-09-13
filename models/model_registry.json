@@ -1,0 +1,76 @@
+{
+  "version": "2.0",
+  "base_path": "d:/akhil/models",
+  "models": {
+    "accident": {
+      "category": "safety",
+      "description": "Vehicle accident detection",
+      "weights": {
+        "default": "weights/yolov8s.pt"
+      },
+      "config": "config/data.yaml",
+      "input_types": [
+        "image",
+        "video",
+        "stream"
+      ],
+      "confidence_threshold": 0.25
+    },
+    "fight": {
+      "category": "security",
+      "description": "Violence and fight detection",
+      "weights": {
+        "nano": "weights/nano_weights.pt",
+        "small": "weights/small_weights.pt",
+        "default": "weights/small_weights.pt"
+      },
+      "input_types": [
+        "image",
+        "video",
+        "stream"
+      ],
+      "confidence_threshold": 0.5
+    },
+    "weapon": {
+      "category": "security",
+      "description": "Weapon detection",
+      "weights": {
+        "default": "weights/weapon_detection.pt"
+      },
+      "input_types": [
+        "image",
+        "video",
+        "stream"
+      ],
+      "confidence_threshold": 0.5
+    },
+    "fire": {
+      "category": "safety",
+      "description": "Fire and smoke detection",
+      "weights": {
+        "nano": "weights/yolov8n.pt",
+        "small": "weights/yolov8s.pt",
+        "default": "weights/yolov8s.pt"
+      },
+      "input_types": [
+        "image",
+        "video",
+        "stream"
+      ],
+      "confidence_threshold": 0.5
+    },
+    "nsfw": {
+      "category": "content_moderation",
+      "description": "NSFW content detection",
+      "weights": {
+        "classification": "weights/classification_model.pt",
+        "segmentation": "weights/segmentation_model.pt",
+        "default": "weights/segmentation_model.pt"
+      },
+      "input_types": [
+        "image"
+      ],
+      "confidence_threshold": 0.7
+    }
+  }
+}
