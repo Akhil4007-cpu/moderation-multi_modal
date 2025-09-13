@@ -1,6 +1,6 @@
 # YOLO Multi-Model Detection System
 
-A comprehensive YOLO-based detection system for multiple safety and security applications including accident detection, violence detection, weapon detection, fire detection, and NSFW content detection.
+A comprehensive YOLO-based detection system for multiple safety and security applications including accident detection, violence detection, weapon detection, fire detection, and NSFW content detection. Now includes **video frame processing** and **single image analysis** capabilities.
 
 ## 🚀 Features
 
@@ -10,7 +10,12 @@ A comprehensive YOLO-based detection system for multiple safety and security app
 - **Fire Detection**: Identify fire, smoke, and flames
 - **NSFW Content Detection**: Classification and segmentation of inappropriate content
 - **Object Detection**: General COCO object detection
+- **Video Frame Processing**: Extract frames from videos and analyze with all models
+- **Single Image Analysis**: Comprehensive multi-model analysis for single images
 - **Batch Processing**: Run multiple detection models sequentially
+- **Advanced Filtering**: Filter results by confidence and generate summary reports
+- **Weapon Detection Analysis**: Specialized analysis for weapon detections
+- **Comprehensive Category Analysis**: Detailed breakdown of all detection categories
 - **Automated Cleanup**: Built-in test result cleanup to prevent storage issues
 
 ## 📁 Project Structure
@@ -41,9 +46,18 @@ d:/akhil/
 │   │       └── segmentation_model.pt
 │   ├── model_registry.json          # Model configuration
 │   └── ADD_NEW_MODELS.md           # Guide for adding models
-├── cleanup_tests.py                # Automated test cleanup script
-├── project_structure.py            # Project optimization tools
-└── .gitignore                      # Git ignore rules
+├── video_analysis_results/          # Video processing results
+├── video_frame_processor.py         # Video frame extraction & analysis
+├── single_image_analyzer.py         # Single image multi-model analysis
+├── create_filtered_results.py       # Results filtering script
+├── weapon_detection_analysis.py     # Weapon-specific analysis
+├── comprehensive_category_analysis.py # All-category analysis
+├── demo_video_processor.py          # Demo script for video processing
+├── VIDEO_PROCESSOR_GUIDE.md         # Video processing guide
+├── TESTING_GUIDE.md                 # Testing instructions
+├── cleanup_tests.py                 # Automated test cleanup script
+├── project_structure.py             # Project optimization tools
+└── .gitignore                       # Git ignore rules
 ```
 
 ## 🛠️ Installation
@@ -83,10 +97,50 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 
 ## 🎯 Quick Start
 
-### Single Model Detection
+### Video Frame Processing (NEW!)
+
+```bash
+# Extract frames from video and analyze with all models
+python video_frame_processor.py "path/to/video.mp4" --conf 0.5
+
+# Keep extracted frames for inspection
+python video_frame_processor.py "path/to/video.mp4" --keep-frames
+
+# Custom output directory
+python video_frame_processor.py "path/to/video.mp4" --output "results/" --temp "temp_frames/"
+```
+
+### Single Image Analysis (NEW!)
+
+```bash
+# Analyze single image with all 9 models
+python single_image_analyzer.py "path/to/image.jpg" --conf 0.5
+
+# Save results to specific file
+python single_image_analyzer.py "path/to/image.jpg" --output "analysis.json"
+
+# Silent mode (no display, only save)
+python single_image_analyzer.py "path/to/image.jpg" --no-display
+```
+
+### Results Analysis & Filtering (NEW!)
+
+```bash
+# Filter video results by confidence
+python create_filtered_results.py "detailed_results.json" --min-conf 0.7 --min-prob 0.7
+
+# Analyze weapon detections specifically
+python weapon_detection_analysis.py "detailed_results.json"
+
+# Comprehensive analysis of all categories
+python comprehensive_category_analysis.py "detailed_results.json" all
+```
+
+### Traditional Single Model Detection
 
 ```bash
 # Accident detection from webcam
+cd integrated_yolo_runner
 python run.py --task accident --source 0 --show
 
 # Weapon detection from image
@@ -106,24 +160,16 @@ python run.py --run_all --source path/to/media --filter_output
 python run.py --categories "weapon,fight,fire" --source path/to/media
 ```
 
-### High-Level Categories
-
-```bash
-# Use category shortcuts
-python run.py --category fight --source path/to/video.mp4
-python run.py --category nsfw --nsfw_mode seg --source path/to/image.jpg
-```
-
 ## 📊 Available Models
 
 | Category | Task Key | Model File | Description |
 |----------|----------|------------|-------------|
 | Accident | `accident` | `yolov8s.pt` | Vehicle accident detection |
-| Fight | `fight_nano` | `Yolo_nano_weights.pt` | Violence detection (fast) |
-| Fight | `fight_small` | `yolo_small_weights.pt` | Violence detection (accurate) |
-| Weapon | `weapon` | `best (3).pt` | Weapon detection |
+| Fight | `fight_nano` | `nano_weights.pt` | Violence detection (fast) |
+| Fight | `fight_small` | `small_weights.pt` | Violence detection (accurate) |
+| Weapon | `weapon` | `weapon_detection.pt` | Weapon detection |
 | Fire | `fire_n` | `yolov8n.pt` | Fire detection (fast) |
-| Fire | `fire_s` | `yolov8s (1).pt` | Fire detection (accurate) |
+| Fire | `fire_s` | `yolov8s.pt` | Fire detection (accurate) |
 | NSFW | `nsfw_cls` | `classification_model.pt` | NSFW classification |
 | NSFW | `nsfw_seg` | `segmentation_model.pt` | NSFW segmentation |
 | Objects | `objects` | `yolov8n.pt` | General object detection |
@@ -172,6 +218,36 @@ python project_structure.py --analyze
 python project_structure.py --optimize
 ```
 
+## 🎥 Video Processing Workflow
+
+### Complete Video Analysis Pipeline
+
+1. **Extract and Analyze Frames**:
+   ```bash
+   python video_frame_processor.py "video.mp4" --conf 0.5
+   ```
+
+2. **Filter Results by Confidence**:
+   ```bash
+   python create_filtered_results.py "detailed_results.json" --min-conf 0.7
+   ```
+
+3. **Analyze Specific Categories**:
+   ```bash
+   # Weapon-specific analysis
+   python weapon_detection_analysis.py "detailed_results.json"
+   
+   # All categories breakdown
+   python comprehensive_category_analysis.py "detailed_results.json" all
+   ```
+
+### Output Files Generated
+- `*_detailed_results.json`: Complete frame-by-frame analysis
+- `*_summary.json`: High-level summary with safety assessment
+- `*_filtered_final_*.json`: Confidence-filtered results
+- `*_weapon_analysis_*.json`: Weapon detection breakdown
+- `*_comprehensive_analysis_*.json`: All-category analysis
+
 ## 📤 Deployment
 
 ### Prepare for Git Upload
@@ -182,17 +258,15 @@ python project_structure.py --optimize
    python project_structure.py --optimize
    ```
 
-2. **Initialize Git repository**:
+2. **Add and commit changes**:
    ```bash
-   git init
    git add .
-   git commit -m "Initial commit: YOLO multi-model detection system"
+   git commit -m "Updated multi-model detection system with video processing"
    ```
 
-3. **Add remote and push**:
+3. **Push to repository**:
    ```bash
-   git remote add origin <your-repository-url>
-   git push -u origin main
+   git push origin main
    ```
 
 ### Docker Deployment (Optional)

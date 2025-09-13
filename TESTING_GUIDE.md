@@ -4,6 +4,7 @@
 
 ### Prerequisites
 ```bash
+# For traditional single-model detection
 cd integrated_yolo_runner
 # Activate virtual environment (if using one)
 .\.venv\Scripts\Activate.ps1  # Windows
@@ -12,6 +13,103 @@ cd integrated_yolo_runner
 # Install dependencies (if not done)
 pip install -r requirements.txt
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+# For video processing and single image analysis (NEW!)
+cd d:\akhil
+# Ensure FFmpeg is installed and in PATH for video processing
+ffmpeg -version
+```
+
+## 🎥 Video Frame Processing (NEW!)
+
+### Basic Video Processing
+```bash
+# Extract frames from video and analyze with all 9 models
+python video_frame_processor.py "path/to/video.mp4"
+
+# Custom confidence threshold
+python video_frame_processor.py "path/to/video.mp4" --conf 0.5
+
+# Keep extracted frames for inspection
+python video_frame_processor.py "path/to/video.mp4" --keep-frames
+
+# Custom directories
+python video_frame_processor.py "path/to/video.mp4" --output "results/" --temp "temp_frames/"
+```
+
+### Video Analysis Pipeline
+```bash
+# 1. Process video with all models
+python video_frame_processor.py "video.mp4" --conf 0.5
+
+# 2. Filter results by confidence
+python create_filtered_results.py "video_detailed_results.json" --min-conf 0.7 --min-prob 0.7
+
+# 3. Analyze weapon detections specifically
+python weapon_detection_analysis.py "video_detailed_results.json"
+
+# 4. Comprehensive analysis of all categories
+python comprehensive_category_analysis.py "video_detailed_results.json" all
+```
+
+## 📸 Single Image Analysis (NEW!)
+
+### Multi-Model Image Testing
+```bash
+# Analyze image with all 9 models
+python single_image_analyzer.py "path/to/image.jpg"
+
+# Custom confidence threshold
+python single_image_analyzer.py "path/to/image.jpg" --conf 0.5
+
+# Save to specific output file
+python single_image_analyzer.py "path/to/image.jpg" --output "analysis.json"
+
+# Silent mode (no display, only save)
+python single_image_analyzer.py "path/to/image.jpg" --no-display
+```
+
+### Understanding Single Image Results
+The single image analyzer tests your image against:
+- **Weapon Detection**: Guns, knives, weapons
+- **Accident Detection**: Vehicle accidents, crashes
+- **Fight Detection**: Violence, fighting (nano & small models)
+- **Fire Detection**: Fire, flames, smoke (nano & small models)
+- **NSFW Detection**: Classification and segmentation
+- **Object Detection**: General COCO objects
+
+## 📊 Results Analysis & Filtering (NEW!)
+
+### Filtering Video Results
+```bash
+# Filter by confidence levels
+python create_filtered_results.py "detailed_results.json" --min-conf 0.7 --min-prob 0.7
+
+# Generate top 3 categories and high-confidence objects
+python create_filtered_results.py "detailed_results.json" --min-conf 0.5 --min-prob 0.5
+```
+
+### Weapon-Specific Analysis
+```bash
+# Detailed weapon detection breakdown
+python weapon_detection_analysis.py "detailed_results.json"
+
+# Shows:
+# - Total weapons detected
+# - Frames with weapons
+# - Confidence breakdown (high/medium/low)
+# - Timeline of weapon detections
+```
+
+### Comprehensive Category Analysis
+```bash
+# Analyze all categories
+python comprehensive_category_analysis.py "detailed_results.json" all
+
+# Analyze specific categories
+python comprehensive_category_analysis.py "detailed_results.json" weapon,accident,fight_nano
+
+# Available categories: weapon, accident, fight_nano, fight_small, fire_n, fire_s, nsfw_cls, nsfw_seg, objects
 ```
 
 ## 📸 Testing Single Images
@@ -368,3 +466,43 @@ test_detection("fire_s", "test_image.jpg")
 ```
 
 Run with: `python quick_test.py`
+
+## 🎯 NEW! Complete Testing Examples
+
+### Video Processing Test
+```bash
+# Test complete video analysis pipeline
+python video_frame_processor.py "test_video.mp4" --conf 0.5
+python create_filtered_results.py "test_video_*_detailed_results.json" --min-conf 0.7
+python weapon_detection_analysis.py "test_video_*_detailed_results.json"
+python comprehensive_category_analysis.py "test_video_*_detailed_results.json" all
+```
+
+### Single Image Test
+```bash
+# Test comprehensive image analysis
+python single_image_analyzer.py "test_image.jpg" --conf 0.5
+# Check results in generated JSON file
+```
+
+### Demo Script Test
+```bash
+# Run demo with automatic test video creation
+python demo_video_processor.py
+```
+
+## 📋 Output Files Reference
+
+### Video Processing Outputs
+- `*_detailed_results.json`: Frame-by-frame analysis with all detections
+- `*_summary.json`: High-level summary with safety assessment  
+- `*_filtered_final_*.json`: Confidence-filtered results
+- `*_weapon_analysis_*.json`: Weapon detection breakdown
+- `*_comprehensive_analysis_*.json`: All-category analysis
+
+### Single Image Outputs
+- `*_analysis_*.json`: Complete multi-model analysis results
+
+### Safety Assessment Levels
+- **SAFE**: No dangerous content detected
+- **UNSAFE**: Weapons, violence, fire, or accidents detected with high confidence

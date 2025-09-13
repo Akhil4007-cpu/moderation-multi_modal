@@ -57,6 +57,11 @@ runs/detect/train*/
 runs/detect/val*/
 runs/detect/predict*/
 
+# Video processing results (keep sample results but ignore large datasets)
+video_analysis_results/*.json
+temp_frames/
+extracted_frames/
+
 # Model weights - keep only essential ones
 # Comment out lines below if you want to include model files in git
 # *.pt
