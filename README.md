@@ -62,38 +62,73 @@ d:/akhil/
 
 ## 🛠️ Installation
 
-### 1. Clone the Repository
+### Quick Setup (Automated)
 
 ```bash
-git clone <repository-url>
-cd akhil
+# Clone repository
+git clone https://github.com/Akhil4007-cpu/moderation-multi_modal.git
+cd moderation-multi_modal
+
+# Run automated setup
+python setup.py
 ```
 
-### 2. Set Up Virtual Environment
+### Manual Installation
 
+#### 1. Prerequisites
+- **Python 3.8+** (3.9-3.11 recommended)
+- **FFmpeg** (required for video processing)
+- **Git** (for cloning repository)
+
+#### 2. Install FFmpeg
 ```bash
-cd integrated_yolo_runner
-python -m venv .venv
+# Windows: Download from https://ffmpeg.org/download.html and add to PATH
+# Linux:
+sudo apt install ffmpeg
+# macOS:
+brew install ffmpeg
+
+# Verify installation:
+ffmpeg -version
+```
+
+#### 3. Clone Repository
+```bash
+git clone https://github.com/Akhil4007-cpu/moderation-multi_modal.git
+cd moderation-multi_modal
+```
+
+#### 4. Set Up Virtual Environment
+```bash
+python -m venv venv
 
 # Windows
-.\.venv\Scripts\Activate.ps1
+venv\Scripts\activate
 
 # Linux/Mac
-source .venv/bin/activate
+source venv/bin/activate
 ```
 
-### 3. Install Dependencies
-
+#### 5. Install Dependencies
 ```bash
-pip install -r requirements.txt
-
-# Install PyTorch (choose based on your system)
+# Install PyTorch first (choose based on your system)
 # CPU only:
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 
-# CUDA 12.1 (adjust for your GPU):
+# CUDA 12.1 (for NVIDIA GPUs):
 pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# Install other dependencies
+pip install -r requirements.txt
 ```
+
+#### 6. Verify Installation
+```bash
+python -c "import ultralytics, cv2, torch; print('✅ All packages imported successfully')"
+ffmpeg -version
+```
+
+For detailed installation instructions, see **[INSTALLATION_GUIDE.md](INSTALLATION_GUIDE.md)**
 
 ## 🎯 Quick Start
 

@@ -1,0 +1,59 @@
+# YOLO Multi-Model Detection System - Complete Dependencies
+# For video processing, single image analysis, and comprehensive detection
+
+# Core YOLO and Computer Vision
+ultralytics==8.3.58
+opencv-python==4.10.0.84
+Pillow>=10.0.0
+
+# Video Processing (FFmpeg Python wrapper)
+ffmpeg-python>=0.2.0
+
+# Data Processing and Analysis
+numpy>=1.24.0
+pandas>=2.0.0
+
+# JSON Processing and File Handling
+pathlib2>=2.3.7
+
+# Progress Bars and CLI
+tqdm>=4.65.0
+
+# Date and Time Handling
+python-dateutil>=2.8.2
+
+# Optional: Enhanced Image Format Support
+pillow-heif>=0.21.0
+
+# Optional: GPU Memory Management
+psutil>=5.9.0
+
+# IMPORTANT: Install PyTorch separately for your platform
+# Choose ONE of the following based on your system:
+
+# For CPU-only systems:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+
+# For CUDA 11.8:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+# For CUDA 12.1:
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu121
+
+# For CUDA 12.4 (latest):
+# pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu124
+
+# EXTERNAL DEPENDENCIES REQUIRED:
+# 1. FFmpeg - Required for video frame extraction
+#    Windows: Download from https://ffmpeg.org/download.html and add to PATH
+#    Linux: sudo apt install ffmpeg
+#    macOS: brew install ffmpeg
+#
+# 2. Git - For version control
+#    Download from https://git-scm.com/
+#
+# INSTALLATION VERIFICATION:
+# Run these commands to verify installation:
+# python -c "import ultralytics, cv2, torch; print('All packages imported successfully')"
+# ffmpeg -version
+# git --version
