@@ -1,0 +1,60 @@
+{
+  "moderation_history": [
+    {
+      "file_path": "dataset/test/safe/point_10.mp3",
+      "file_name": "point_10.mp3",
+      "predicted_category": "safe",
+      "confidence": 67.5,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 3.5,
+        "drugs": 3.5,
+        "hate": 10.0,
+        "safe": 67.5,
+        "spam": 3.5,
+        "violence": 12.0
+      },
+      "timestamp": "2025-09-14T14:46:05.118872",
+      "model_used": "audio_classifier_sklearn.pkl"
+    },
+    {
+      "file_path": "dataset/test/violence/point_11.mp3",
+      "file_name": "point_11.mp3",
+      "predicted_category": "violence",
+      "confidence": 53.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 10.0,
+        "drugs": 7.5,
+        "hate": 17.5,
+        "safe": 4.0,
+        "spam": 8.0,
+        "violence": 53.0
+      },
+      "timestamp": "2025-09-14T14:46:18.540686",
+      "model_used": "audio_classifier_sklearn.pkl"
+    },
+    {
+      "file_path": "C:\\Users\\Harshitha Addanki\\Videos\\me.mp4",
+      "file_name": "me.mp4",
+      "predicted_category": "spam",
+      "confidence": 26.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 3.0,
+        "drugs": 6.5,
+        "hate": 25.5,
+        "safe": 25.0,
+        "spam": 26.5,
+        "violence": 13.5
+      },
+      "timestamp": "2025-09-14T14:51:37.085062",
+      "model_used": "audio_classifier_sklearn.pkl"
+    }
+  ],
+  "last_updated": "2025-09-14T14:51:37.086193",
+  "total_moderations": 3
+}

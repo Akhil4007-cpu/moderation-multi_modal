@@ -1,0 +1,2102 @@
+[
+    {
+        "file": "drugs_test_001.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999986792346842
+    },
+    {
+        "file": "drugs_test_002.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999997925405923
+    },
+    {
+        "file": "drugs_test_003.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999994357426474
+    },
+    {
+        "file": "drugs_test_004.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999994701962951
+    },
+    {
+        "file": "drugs_test_005.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999058681949028
+    },
+    {
+        "file": "drugs_test_006.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999277420362448
+    },
+    {
+        "file": "drugs_test_007.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999980432682806
+    },
+    {
+        "file": "drugs_test_008.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999898292336327
+    },
+    {
+        "file": "drugs_test_009.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999601470115627
+    },
+    {
+        "file": "drugs_test_010.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999673742104214
+    },
+    {
+        "file": "drugs_test_011.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999997100790056
+    },
+    {
+        "file": "drugs_test_012.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.999999725768545
+    },
+    {
+        "file": "drugs_test_013.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999111992732739
+    },
+    {
+        "file": "drugs_test_014.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999967696525034
+    },
+    {
+        "file": "drugs_test_015.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999976857345764
+    },
+    {
+        "file": "drugs_test_016.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999847315547286
+    },
+    {
+        "file": "drugs_test_017.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999998172500308
+    },
+    {
+        "file": "drugs_test_018.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999753233274434
+    },
+    {
+        "file": "drugs_test_019.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999370643359888
+    },
+    {
+        "file": "drugs_test_020.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999985865986402
+    },
+    {
+        "file": "drugs_test_021.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999874834915606
+    },
+    {
+        "file": "drugs_test_022.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999983417327378
+    },
+    {
+        "file": "drugs_test_023.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999993140809175
+    },
+    {
+        "file": "drugs_test_024.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999758801043408
+    },
+    {
+        "file": "drugs_test_025.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999364869165591
+    },
+    {
+        "file": "drugs_test_026.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999988868206074
+    },
+    {
+        "file": "drugs_test_027.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999909681177063
+    },
+    {
+        "file": "drugs_test_028.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999883343901801
+    },
+    {
+        "file": "drugs_test_029.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999968438418987
+    },
+    {
+        "file": "drugs_test_030.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999909681177063
+    },
+    {
+        "file": "drugs_test_031.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999840520056095
+    },
+    {
+        "file": "drugs_test_032.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999619914864729
+    },
+    {
+        "file": "drugs_test_033.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999858623360572
+    },
+    {
+        "file": "drugs_test_034.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999991947839435
+    },
+    {
+        "file": "drugs_test_035.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999995889188177
+    },
+    {
+        "file": "drugs_test_036.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999898022301325
+    },
+    {
+        "file": "drugs_test_037.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999992155161253
+    },
+    {
+        "file": "drugs_test_038.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.999987349478812
+    },
+    {
+        "file": "drugs_test_039.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.999997515877128
+    },
+    {
+        "file": "drugs_test_040.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999113146551776
+    },
+    {
+        "file": "drugs_test_041.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.999997202050877
+    },
+    {
+        "file": "drugs_test_042.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999986550978746
+    },
+    {
+        "file": "drugs_test_043.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999969652031886
+    },
+    {
+        "file": "drugs_test_044.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999996215178198
+    },
+    {
+        "file": "drugs_test_045.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999706255978591
+    },
+    {
+        "file": "drugs_test_046.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999996505758275
+    },
+    {
+        "file": "drugs_test_047.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999983982908562
+    },
+    {
+        "file": "drugs_test_048.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999990772502082
+    },
+    {
+        "file": "drugs_test_049.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999808328850597
+    },
+    {
+        "file": "drugs_test_050.txt",
+        "true_label": "drugs",
+        "predicted_label": "drugs",
+        "confidence": 0.9999981742917935
+    },
+    {
+        "file": "misinfo_test_001.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999996129289034
+    },
+    {
+        "file": "misinfo_test_002.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999991925881551
+    },
+    {
+        "file": "misinfo_test_003.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999562988754023
+    },
+    {
+        "file": "misinfo_test_004.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999696676220736
+    },
+    {
+        "file": "misinfo_test_005.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999997046784844
+    },
+    {
+        "file": "misinfo_test_006.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999996930651074
+    },
+    {
+        "file": "misinfo_test_007.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999772354198162
+    },
+    {
+        "file": "misinfo_test_008.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999988551010847
+    },
+    {
+        "file": "misinfo_test_009.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999919485243806
+    },
+    {
+        "file": "misinfo_test_010.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999688689338329
+    },
+    {
+        "file": "misinfo_test_011.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999995928067141
+    },
+    {
+        "file": "misinfo_test_012.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999997087284951
+    },
+    {
+        "file": "misinfo_test_013.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999981733375115
+    },
+    {
+        "file": "misinfo_test_014.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999938256337172
+    },
+    {
+        "file": "misinfo_test_015.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999941517691706
+    },
+    {
+        "file": "misinfo_test_016.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999993838126764
+    },
+    {
+        "file": "misinfo_test_017.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999996676629924
+    },
+    {
+        "file": "misinfo_test_018.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999997305488407
+    },
+    {
+        "file": "misinfo_test_019.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.99999976245682
+    },
+    {
+        "file": "misinfo_test_020.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.999999272561931
+    },
+    {
+        "file": "misinfo_test_021.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.999978613891647
+    },
+    {
+        "file": "misinfo_test_022.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999995254713372
+    },
+    {
+        "file": "misinfo_test_023.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999985675206978
+    },
+    {
+        "file": "misinfo_test_024.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.999967057610234
+    },
+    {
+        "file": "misinfo_test_025.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999942995764473
+    },
+    {
+        "file": "misinfo_test_026.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999972586209319
+    },
+    {
+        "file": "misinfo_test_027.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999830881484466
+    },
+    {
+        "file": "misinfo_test_028.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999703823472896
+    },
+    {
+        "file": "misinfo_test_029.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999988702648666
+    },
+    {
+        "file": "misinfo_test_030.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.999965602304917
+    },
+    {
+        "file": "misinfo_test_031.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999804667468795
+    },
+    {
+        "file": "misinfo_test_032.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999929009597526
+    },
+    {
+        "file": "misinfo_test_033.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999950326170353
+    },
+    {
+        "file": "misinfo_test_034.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999969832369929
+    },
+    {
+        "file": "misinfo_test_035.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999996847109927
+    },
+    {
+        "file": "misinfo_test_036.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999250848846901
+    },
+    {
+        "file": "misinfo_test_037.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999989184720186
+    },
+    {
+        "file": "misinfo_test_038.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999710422819725
+    },
+    {
+        "file": "misinfo_test_039.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.99999714482252
+    },
+    {
+        "file": "misinfo_test_040.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999996512226024
+    },
+    {
+        "file": "misinfo_test_041.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999997822180962
+    },
+    {
+        "file": "misinfo_test_042.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999991480003066
+    },
+    {
+        "file": "misinfo_test_043.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999996199192344
+    },
+    {
+        "file": "misinfo_test_044.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999990163288757
+    },
+    {
+        "file": "misinfo_test_045.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999983204239983
+    },
+    {
+        "file": "misinfo_test_046.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999997252479589
+    },
+    {
+        "file": "misinfo_test_047.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999944086089272
+    },
+    {
+        "file": "misinfo_test_048.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999997668110959
+    },
+    {
+        "file": "misinfo_test_049.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999988949254042
+    },
+    {
+        "file": "misinfo_test_050.txt",
+        "true_label": "fraud",
+        "predicted_label": "fraud",
+        "confidence": 0.9999947750102941
+    },
+    {
+        "file": "hate_test_1.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999700326805063
+    },
+    {
+        "file": "hate_test_10.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999612769322856
+    },
+    {
+        "file": "hate_test_11.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9994697064705793
+    },
+    {
+        "file": "hate_test_12.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9998868822446992
+    },
+    {
+        "file": "hate_test_13.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.999997688345996
+    },
+    {
+        "file": "hate_test_14.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999839216154636
+    },
+    {
+        "file": "hate_test_15.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999130869339575
+    },
+    {
+        "file": "hate_test_16.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9995084535692834
+    },
+    {
+        "file": "hate_test_17.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9991133939396465
+    },
+    {
+        "file": "hate_test_18.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9985375745547468
+    },
+    {
+        "file": "hate_test_19.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999783406609656
+    },
+    {
+        "file": "hate_test_2.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9998868822446992
+    },
+    {
+        "file": "hate_test_20.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9995946651358723
+    },
+    {
+        "file": "hate_test_21.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999902476498598
+    },
+    {
+        "file": "hate_test_22.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9997103935323072
+    },
+    {
+        "file": "hate_test_23.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999897904784439
+    },
+    {
+        "file": "hate_test_24.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9994005919290443
+    },
+    {
+        "file": "hate_test_25.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9983799851844478
+    },
+    {
+        "file": "hate_test_26.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999074889589569
+    },
+    {
+        "file": "hate_test_27.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.999996214742998
+    },
+    {
+        "file": "hate_test_28.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9997373661038165
+    },
+    {
+        "file": "hate_test_29.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999574856729677
+    },
+    {
+        "file": "hate_test_3.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999786842525025
+    },
+    {
+        "file": "hate_test_30.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9998678395765052
+    },
+    {
+        "file": "hate_test_31.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999782713345483
+    },
+    {
+        "file": "hate_test_32.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9994005919290443
+    },
+    {
+        "file": "hate_test_33.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.999984667123287
+    },
+    {
+        "file": "hate_test_34.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9995598636707845
+    },
+    {
+        "file": "hate_test_35.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9975342736835929
+    },
+    {
+        "file": "hate_test_36.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9996716340641539
+    },
+    {
+        "file": "hate_test_37.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9998949155139509
+    },
+    {
+        "file": "hate_test_38.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999954775884327
+    },
+    {
+        "file": "hate_test_39.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9998508219626168
+    },
+    {
+        "file": "hate_test_4.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999932776716133
+    },
+    {
+        "file": "hate_test_40.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9996716340641539
+    },
+    {
+        "file": "hate_test_41.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999906971810008
+    },
+    {
+        "file": "hate_test_42.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999926948440906
+    },
+    {
+        "file": "hate_test_43.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999977772995454
+    },
+    {
+        "file": "hate_test_44.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999936061878021
+    },
+    {
+        "file": "hate_test_45.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999857125520648
+    },
+    {
+        "file": "hate_test_46.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9994697064705793
+    },
+    {
+        "file": "hate_test_47.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999546255077063
+    },
+    {
+        "file": "hate_test_48.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9991354128192925
+    },
+    {
+        "file": "hate_test_49.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9998946011850441
+    },
+    {
+        "file": "hate_test_5.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9993990159475424
+    },
+    {
+        "file": "hate_test_50.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999894287615507
+    },
+    {
+        "file": "hate_test_6.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999926948440906
+    },
+    {
+        "file": "hate_test_7.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999894355650498
+    },
+    {
+        "file": "hate_test_8.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9998685743848531
+    },
+    {
+        "file": "hate_test_9.txt",
+        "true_label": "harrassment",
+        "predicted_label": "harrassment",
+        "confidence": 0.9999070380117064
+    },
+    {
+        "file": "test_001.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9976571860379678
+    },
+    {
+        "file": "test_002.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9993444103221544
+    },
+    {
+        "file": "test_003.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9999691279379996
+    },
+    {
+        "file": "test_004.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9998751665725825
+    },
+    {
+        "file": "test_005.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9997382497664463
+    },
+    {
+        "file": "test_006.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9971677035645553
+    },
+    {
+        "file": "test_007.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9991070962194974
+    },
+    {
+        "file": "test_008.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9997586473855004
+    },
+    {
+        "file": "test_009.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9995695744602396
+    },
+    {
+        "file": "test_010.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9999386151195719
+    },
+    {
+        "file": "test_011.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9995316102245655
+    },
+    {
+        "file": "test_012.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9990844578432468
+    },
+    {
+        "file": "test_013.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9998076873100982
+    },
+    {
+        "file": "test_014.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9999249451296379
+    },
+    {
+        "file": "test_015.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9977109940349288
+    },
+    {
+        "file": "test_016.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9999334076978988
+    },
+    {
+        "file": "test_017.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9999205794482867
+    },
+    {
+        "file": "test_018.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9993641753703346
+    },
+    {
+        "file": "test_019.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9998853622319921
+    },
+    {
+        "file": "test_020.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9996111013911332
+    },
+    {
+        "file": "test_021.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9992992038313363
+    },
+    {
+        "file": "test_022.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9988767558218982
+    },
+    {
+        "file": "test_023.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9998402357694085
+    },
+    {
+        "file": "test_024.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9999444141515458
+    },
+    {
+        "file": "test_025.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9995465254576861
+    },
+    {
+        "file": "test_026.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9999748164342638
+    },
+    {
+        "file": "test_027.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9997871995394433
+    },
+    {
+        "file": "test_028.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.999448367838213
+    },
+    {
+        "file": "test_029.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9996039310665611
+    },
+    {
+        "file": "test_030.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9999290971493513
+    },
+    {
+        "file": "test_031.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9997764839720753
+    },
+    {
+        "file": "test_032.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9993808717126323
+    },
+    {
+        "file": "test_033.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9991375567253914
+    },
+    {
+        "file": "test_034.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9987536107827306
+    },
+    {
+        "file": "test_035.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9998731534358812
+    },
+    {
+        "file": "test_036.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9999810828743727
+    },
+    {
+        "file": "test_037.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9987016108236815
+    },
+    {
+        "file": "test_038.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9999368899020764
+    },
+    {
+        "file": "test_039.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9998123501956175
+    },
+    {
+        "file": "test_040.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9979110918421108
+    },
+    {
+        "file": "test_041.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9991392161899153
+    },
+    {
+        "file": "test_042.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9990340938332679
+    },
+    {
+        "file": "test_043.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9999588267717727
+    },
+    {
+        "file": "test_044.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9994120859097569
+    },
+    {
+        "file": "test_045.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9986694089762634
+    },
+    {
+        "file": "test_046.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9999703983564767
+    },
+    {
+        "file": "test_047.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9997640291023695
+    },
+    {
+        "file": "test_048.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9993841002405821
+    },
+    {
+        "file": "test_049.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9996642100917137
+    },
+    {
+        "file": "test_050.txt",
+        "true_label": "safe",
+        "predicted_label": "safe",
+        "confidence": 0.9964080384469247
+    },
+    {
+        "file": "adult_test_1.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999891339035268
+    },
+    {
+        "file": "adult_test_10.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999936685385962
+    },
+    {
+        "file": "adult_test_11.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9998570023907478
+    },
+    {
+        "file": "adult_test_12.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999925566463843
+    },
+    {
+        "file": "adult_test_13.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999979904233717
+    },
+    {
+        "file": "adult_test_14.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999469756042871
+    },
+    {
+        "file": "adult_test_15.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999978501746066
+    },
+    {
+        "file": "adult_test_16.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999770201546626
+    },
+    {
+        "file": "adult_test_17.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.999945546558858
+    },
+    {
+        "file": "adult_test_18.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999663517375493
+    },
+    {
+        "file": "adult_test_19.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999769804838035
+    },
+    {
+        "file": "adult_test_2.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999982949318961
+    },
+    {
+        "file": "adult_test_20.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999979826551835
+    },
+    {
+        "file": "adult_test_21.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999663517375493
+    },
+    {
+        "file": "adult_test_22.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999947557785325
+    },
+    {
+        "file": "adult_test_23.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999302051790402
+    },
+    {
+        "file": "adult_test_24.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9998355201629026
+    },
+    {
+        "file": "adult_test_25.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999986461000531
+    },
+    {
+        "file": "adult_test_26.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9998743721570628
+    },
+    {
+        "file": "adult_test_27.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9998018398669786
+    },
+    {
+        "file": "adult_test_28.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999898571006829
+    },
+    {
+        "file": "adult_test_29.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999903769152173
+    },
+    {
+        "file": "adult_test_3.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999924878939875
+    },
+    {
+        "file": "adult_test_30.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9996762667852985
+    },
+    {
+        "file": "adult_test_31.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999986433698959
+    },
+    {
+        "file": "adult_test_32.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9998355201629026
+    },
+    {
+        "file": "adult_test_33.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999989657523242
+    },
+    {
+        "file": "adult_test_34.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.999998923060656
+    },
+    {
+        "file": "adult_test_35.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999952101015096
+    },
+    {
+        "file": "adult_test_36.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999525541695716
+    },
+    {
+        "file": "adult_test_37.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999442810350782
+    },
+    {
+        "file": "adult_test_38.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999988485184573
+    },
+    {
+        "file": "adult_test_39.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999987729496663
+    },
+    {
+        "file": "adult_test_4.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9994718863104751
+    },
+    {
+        "file": "adult_test_40.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9998355201629026
+    },
+    {
+        "file": "adult_test_41.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999987194199697
+    },
+    {
+        "file": "adult_test_42.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999787009199771
+    },
+    {
+        "file": "adult_test_43.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9991912621524436
+    },
+    {
+        "file": "adult_test_44.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999589665357738
+    },
+    {
+        "file": "adult_test_45.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999919901048796
+    },
+    {
+        "file": "adult_test_46.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999835444926889
+    },
+    {
+        "file": "adult_test_47.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999988482889417
+    },
+    {
+        "file": "adult_test_48.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999804396903779
+    },
+    {
+        "file": "adult_test_49.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999983120564905
+    },
+    {
+        "file": "adult_test_5.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.999998161579923
+    },
+    {
+        "file": "adult_test_50.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9998170133101394
+    },
+    {
+        "file": "adult_test_6.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999758941586794
+    },
+    {
+        "file": "adult_test_7.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9999442810350782
+    },
+    {
+        "file": "adult_test_8.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9995876452634552
+    },
+    {
+        "file": "adult_test_9.txt",
+        "true_label": "sexual",
+        "predicted_label": "sexual",
+        "confidence": 0.9998779558120497
+    },
+    {
+        "file": "selfharm_test_001.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999961099792276
+    },
+    {
+        "file": "selfharm_test_002.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999834833382182
+    },
+    {
+        "file": "selfharm_test_003.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999990502100607
+    },
+    {
+        "file": "selfharm_test_004.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999983434106426
+    },
+    {
+        "file": "selfharm_test_005.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999997569269408
+    },
+    {
+        "file": "selfharm_test_006.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999997457743074
+    },
+    {
+        "file": "selfharm_test_007.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.999999767138283
+    },
+    {
+        "file": "selfharm_test_008.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999997836226718
+    },
+    {
+        "file": "selfharm_test_009.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999982456634525
+    },
+    {
+        "file": "selfharm_test_010.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999714583543896
+    },
+    {
+        "file": "selfharm_test_011.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.999997863303813
+    },
+    {
+        "file": "selfharm_test_012.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999966591601137
+    },
+    {
+        "file": "selfharm_test_013.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999994137541441
+    },
+    {
+        "file": "selfharm_test_014.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999993112974606
+    },
+    {
+        "file": "selfharm_test_015.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999960452115928
+    },
+    {
+        "file": "selfharm_test_016.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999994628878518
+    },
+    {
+        "file": "selfharm_test_017.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.999999884976297
+    },
+    {
+        "file": "selfharm_test_018.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999988111896908
+    },
+    {
+        "file": "selfharm_test_019.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999699390055343
+    },
+    {
+        "file": "selfharm_test_020.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999961378403778
+    },
+    {
+        "file": "selfharm_test_021.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999908541814981
+    },
+    {
+        "file": "selfharm_test_022.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999992821847014
+    },
+    {
+        "file": "selfharm_test_023.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999998570865887
+    },
+    {
+        "file": "selfharm_test_024.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999995943655376
+    },
+    {
+        "file": "selfharm_test_025.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.999999648724502
+    },
+    {
+        "file": "selfharm_test_026.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999727844461618
+    },
+    {
+        "file": "selfharm_test_027.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999998248305044
+    },
+    {
+        "file": "selfharm_test_028.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999988133945484
+    },
+    {
+        "file": "selfharm_test_029.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999985754678121
+    },
+    {
+        "file": "selfharm_test_030.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999960452115928
+    },
+    {
+        "file": "selfharm_test_031.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999936366106321
+    },
+    {
+        "file": "selfharm_test_032.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999972761810701
+    },
+    {
+        "file": "selfharm_test_033.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999994791764599
+    },
+    {
+        "file": "selfharm_test_034.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999997984844872
+    },
+    {
+        "file": "selfharm_test_035.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.999961963061851
+    },
+    {
+        "file": "selfharm_test_036.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999746019674293
+    },
+    {
+        "file": "selfharm_test_037.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.999999726610236
+    },
+    {
+        "file": "selfharm_test_038.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.999998917072624
+    },
+    {
+        "file": "selfharm_test_039.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999883617600313
+    },
+    {
+        "file": "selfharm_test_040.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999998876232389
+    },
+    {
+        "file": "selfharm_test_041.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999984413506123
+    },
+    {
+        "file": "selfharm_test_042.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999984480615395
+    },
+    {
+        "file": "selfharm_test_043.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999998570865887
+    },
+    {
+        "file": "selfharm_test_044.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999998506370571
+    },
+    {
+        "file": "selfharm_test_045.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999854323836742
+    },
+    {
+        "file": "selfharm_test_046.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999993080339542
+    },
+    {
+        "file": "selfharm_test_047.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999982312235975
+    },
+    {
+        "file": "selfharm_test_048.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.999999038788051
+    },
+    {
+        "file": "selfharm_test_049.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999992581919857
+    },
+    {
+        "file": "selfharm_test_050.txt",
+        "true_label": "suicide",
+        "predicted_label": "suicide",
+        "confidence": 0.9999995326174469
+    },
+    {
+        "file": "violence_test_1.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9996875517448336
+    },
+    {
+        "file": "violence_test_10.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999968694346012
+    },
+    {
+        "file": "violence_test_11.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999864435678082
+    },
+    {
+        "file": "violence_test_12.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999829410542352
+    },
+    {
+        "file": "violence_test_13.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999832046201304
+    },
+    {
+        "file": "violence_test_14.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999910950599871
+    },
+    {
+        "file": "violence_test_15.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999823752180007
+    },
+    {
+        "file": "violence_test_16.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9990614364547049
+    },
+    {
+        "file": "violence_test_17.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999573580852146
+    },
+    {
+        "file": "violence_test_18.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999940735483475
+    },
+    {
+        "file": "violence_test_19.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999843567092753
+    },
+    {
+        "file": "violence_test_2.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999645532478743
+    },
+    {
+        "file": "violence_test_20.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9987375790789897
+    },
+    {
+        "file": "violence_test_21.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999919566266164
+    },
+    {
+        "file": "violence_test_22.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999964049005712
+    },
+    {
+        "file": "violence_test_23.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999943561065194
+    },
+    {
+        "file": "violence_test_24.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999291759006291
+    },
+    {
+        "file": "violence_test_25.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999966883038295
+    },
+    {
+        "file": "violence_test_26.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999891017125253
+    },
+    {
+        "file": "violence_test_27.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999768069331461
+    },
+    {
+        "file": "violence_test_28.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999896842003358
+    },
+    {
+        "file": "violence_test_29.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999968331604003
+    },
+    {
+        "file": "violence_test_3.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999975333458633
+    },
+    {
+        "file": "violence_test_30.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999957805533045
+    },
+    {
+        "file": "violence_test_31.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999625699127099
+    },
+    {
+        "file": "violence_test_32.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.99955500994352
+    },
+    {
+        "file": "violence_test_33.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9998866222185534
+    },
+    {
+        "file": "violence_test_34.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999909551666933
+    },
+    {
+        "file": "violence_test_35.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999973212239684
+    },
+    {
+        "file": "violence_test_36.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9998863113923411
+    },
+    {
+        "file": "violence_test_37.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999841477849241
+    },
+    {
+        "file": "violence_test_38.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999972311137277
+    },
+    {
+        "file": "violence_test_39.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999322572613265
+    },
+    {
+        "file": "violence_test_4.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999862624243767
+    },
+    {
+        "file": "violence_test_40.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999902290505407
+    },
+    {
+        "file": "violence_test_41.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999829325422241
+    },
+    {
+        "file": "violence_test_42.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999878732079989
+    },
+    {
+        "file": "violence_test_43.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.999962808825677
+    },
+    {
+        "file": "violence_test_44.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9997404660642569
+    },
+    {
+        "file": "violence_test_45.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999958853036147
+    },
+    {
+        "file": "violence_test_46.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999466378946603
+    },
+    {
+        "file": "violence_test_47.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999891017125253
+    },
+    {
+        "file": "violence_test_48.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999755400256101
+    },
+    {
+        "file": "violence_test_49.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999911652058029
+    },
+    {
+        "file": "violence_test_5.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999965529178365
+    },
+    {
+        "file": "violence_test_50.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999896501575406
+    },
+    {
+        "file": "violence_test_6.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.999770968810859
+    },
+    {
+        "file": "violence_test_7.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999516928861545
+    },
+    {
+        "file": "violence_test_8.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999940832251966
+    },
+    {
+        "file": "violence_test_9.txt",
+        "true_label": "violence",
+        "predicted_label": "violence",
+        "confidence": 0.9999905227988632
+    }
+]

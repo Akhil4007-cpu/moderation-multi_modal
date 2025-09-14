@@ -1,0 +1,2334 @@
+{
+  "moderation_summary": {
+    "total_files_processed": 120,
+    "overall_accuracy": 94.17,
+    "safe_files_correctly_identified": 19,
+    "safe_files_total": 20,
+    "safe_accuracy": 95.0,
+    "unsafe_files_correctly_identified": 100,
+    "unsafe_files_total": 100,
+    "unsafe_accuracy": 100.0,
+    "timestamp": "2025-09-14T14:45:53.835857",
+    "model_used": "audio_classifier_sklearn.pkl"
+  },
+  "category_statistics": {
+    "adult": {
+      "total_files": 20,
+      "correct_predictions": 18,
+      "safe_predictions": 0,
+      "unsafe_predictions": 20
+    },
+    "drugs": {
+      "total_files": 20,
+      "correct_predictions": 20,
+      "safe_predictions": 0,
+      "unsafe_predictions": 20
+    },
+    "hate": {
+      "total_files": 20,
+      "correct_predictions": 20,
+      "safe_predictions": 0,
+      "unsafe_predictions": 20
+    },
+    "safe": {
+      "total_files": 20,
+      "correct_predictions": 19,
+      "safe_predictions": 19,
+      "unsafe_predictions": 1
+    },
+    "spam": {
+      "total_files": 20,
+      "correct_predictions": 18,
+      "safe_predictions": 0,
+      "unsafe_predictions": 20
+    },
+    "violence": {
+      "total_files": 20,
+      "correct_predictions": 18,
+      "safe_predictions": 0,
+      "unsafe_predictions": 20
+    }
+  },
+  "detailed_results": [
+    {
+      "file_path": "dataset/test\\adult\\point_13.mp3",
+      "file_name": "point_13.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 69.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 69.5,
+        "drugs": 6.5,
+        "hate": 5.5,
+        "safe": 3.0,
+        "spam": 5.0,
+        "violence": 10.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:47.838284"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_21.mp3",
+      "file_name": "point_21.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 85.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 85.0,
+        "drugs": 3.5,
+        "hate": 1.0,
+        "safe": 1.5,
+        "spam": 2.5,
+        "violence": 6.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:47.895191"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_23.mp3",
+      "file_name": "point_23.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 47.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 47.5,
+        "drugs": 4.0,
+        "hate": 16.5,
+        "safe": 9.0,
+        "spam": 7.0,
+        "violence": 16.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:47.949946"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_25.mp3",
+      "file_name": "point_25.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 83.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 83.5,
+        "drugs": 5.5,
+        "hate": 2.0,
+        "safe": 0.5,
+        "spam": 5.0,
+        "violence": 3.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.004757"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_26.mp3",
+      "file_name": "point_26.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 76.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 76.5,
+        "drugs": 6.0,
+        "hate": 1.5,
+        "safe": 2.0,
+        "spam": 5.5,
+        "violence": 8.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.061202"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_29.mp3",
+      "file_name": "point_29.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 80.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 80.5,
+        "drugs": 7.5,
+        "hate": 3.5,
+        "safe": 0.5,
+        "spam": 2.5,
+        "violence": 5.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.120952"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_31.mp3",
+      "file_name": "point_31.mp3",
+      "true_category": "adult",
+      "predicted_category": "violence",
+      "confidence": 37.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 28.5,
+        "drugs": 4.0,
+        "hate": 18.5,
+        "safe": 4.0,
+        "spam": 8.0,
+        "violence": 37.0
+      },
+      "correct_prediction": false,
+      "timestamp": "2025-09-14T14:45:48.174585"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_34.mp3",
+      "file_name": "point_34.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 79.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 79.5,
+        "drugs": 5.5,
+        "hate": 5.5,
+        "safe": 2.0,
+        "spam": 1.5,
+        "violence": 6.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.227065"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_35.mp3",
+      "file_name": "point_35.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 57.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 57.5,
+        "drugs": 10.5,
+        "hate": 8.0,
+        "safe": 7.5,
+        "spam": 3.5,
+        "violence": 13.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.282517"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_38.mp3",
+      "file_name": "point_38.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 65.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 65.5,
+        "drugs": 9.5,
+        "hate": 6.5,
+        "safe": 1.5,
+        "spam": 6.0,
+        "violence": 11.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.337041"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_40.mp3",
+      "file_name": "point_40.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 38.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 38.5,
+        "drugs": 12.0,
+        "hate": 8.5,
+        "safe": 4.0,
+        "spam": 17.5,
+        "violence": 19.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.387763"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_57.mp3",
+      "file_name": "point_57.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 59.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 59.0,
+        "drugs": 9.0,
+        "hate": 5.5,
+        "safe": 2.5,
+        "spam": 5.0,
+        "violence": 19.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.442184"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_59.mp3",
+      "file_name": "point_59.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 38.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 38.0,
+        "drugs": 7.5,
+        "hate": 15.0,
+        "safe": 8.5,
+        "spam": 10.0,
+        "violence": 21.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.498093"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_61.mp3",
+      "file_name": "point_61.mp3",
+      "true_category": "adult",
+      "predicted_category": "violence",
+      "confidence": 23.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 17.0,
+        "drugs": 12.5,
+        "hate": 17.0,
+        "safe": 22.5,
+        "spam": 7.5,
+        "violence": 23.5
+      },
+      "correct_prediction": false,
+      "timestamp": "2025-09-14T14:45:48.551440"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_67.mp3",
+      "file_name": "point_67.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 65.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 65.5,
+        "drugs": 17.5,
+        "hate": 6.5,
+        "safe": 2.5,
+        "spam": 5.5,
+        "violence": 2.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.604312"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_71.mp3",
+      "file_name": "point_71.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 73.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 73.5,
+        "drugs": 5.5,
+        "hate": 11.5,
+        "safe": 1.5,
+        "spam": 2.5,
+        "violence": 5.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.657044"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_75.mp3",
+      "file_name": "point_75.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 70.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 70.5,
+        "drugs": 14.5,
+        "hate": 4.0,
+        "safe": 2.0,
+        "spam": 3.0,
+        "violence": 6.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.712958"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_77.mp3",
+      "file_name": "point_77.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 77.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 77.5,
+        "drugs": 5.5,
+        "hate": 7.0,
+        "safe": 1.5,
+        "spam": 2.0,
+        "violence": 6.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.764517"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_78.mp3",
+      "file_name": "point_78.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 52.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 52.0,
+        "drugs": 19.0,
+        "hate": 4.0,
+        "safe": 3.0,
+        "spam": 10.0,
+        "violence": 12.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.818486"
+    },
+    {
+      "file_path": "dataset/test\\adult\\point_87.mp3",
+      "file_name": "point_87.mp3",
+      "true_category": "adult",
+      "predicted_category": "adult",
+      "confidence": 57.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 57.0,
+        "drugs": 9.5,
+        "hate": 14.0,
+        "safe": 3.5,
+        "spam": 4.0,
+        "violence": 12.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.870088"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_1.mp3",
+      "file_name": "point_1.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 55.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 2.0,
+        "drugs": 55.0,
+        "hate": 9.0,
+        "safe": 1.5,
+        "spam": 17.5,
+        "violence": 15.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.925833"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_100.mp3",
+      "file_name": "point_100.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 60.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 6.5,
+        "drugs": 60.5,
+        "hate": 1.0,
+        "safe": 2.5,
+        "spam": 21.5,
+        "violence": 8.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:48.977499"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_11.mp3",
+      "file_name": "point_11.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 61.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 6.0,
+        "drugs": 61.5,
+        "hate": 2.5,
+        "safe": 3.0,
+        "spam": 11.0,
+        "violence": 16.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.029937"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_12.mp3",
+      "file_name": "point_12.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 71.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 2.0,
+        "drugs": 71.5,
+        "hate": 1.5,
+        "safe": 2.5,
+        "spam": 14.5,
+        "violence": 8.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.081063"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_16.mp3",
+      "file_name": "point_16.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 66.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 9.5,
+        "drugs": 66.0,
+        "hate": 3.5,
+        "safe": 1.5,
+        "spam": 11.5,
+        "violence": 8.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.133714"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_17.mp3",
+      "file_name": "point_17.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 53.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 6.0,
+        "drugs": 53.0,
+        "hate": 7.0,
+        "safe": 1.0,
+        "spam": 13.0,
+        "violence": 20.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.184192"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_21.mp3",
+      "file_name": "point_21.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 61.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 6.5,
+        "drugs": 61.5,
+        "hate": 1.5,
+        "safe": 2.5,
+        "spam": 17.5,
+        "violence": 10.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.236174"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_28.mp3",
+      "file_name": "point_28.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 59.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 16.5,
+        "drugs": 59.0,
+        "hate": 4.0,
+        "safe": 0.5,
+        "spam": 10.5,
+        "violence": 9.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.286638"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_29.mp3",
+      "file_name": "point_29.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 86.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 4.5,
+        "drugs": 86.0,
+        "hate": 0.5,
+        "safe": 0.5,
+        "spam": 3.0,
+        "violence": 5.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.335183"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_33.mp3",
+      "file_name": "point_33.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 51.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 9.5,
+        "drugs": 51.5,
+        "hate": 9.0,
+        "safe": 1.5,
+        "spam": 8.5,
+        "violence": 20.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.385628"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_51.mp3",
+      "file_name": "point_51.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 58.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 2.5,
+        "drugs": 58.0,
+        "hate": 3.5,
+        "safe": 1.0,
+        "spam": 24.5,
+        "violence": 10.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.436831"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_52.mp3",
+      "file_name": "point_52.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 84.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 1.0,
+        "drugs": 84.0,
+        "hate": 3.5,
+        "safe": 2.0,
+        "spam": 5.0,
+        "violence": 4.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.492321"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_7.mp3",
+      "file_name": "point_7.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 59.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 3.0,
+        "drugs": 59.0,
+        "hate": 3.0,
+        "safe": 2.0,
+        "spam": 15.5,
+        "violence": 17.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.544930"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_71.mp3",
+      "file_name": "point_71.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 57.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 2.5,
+        "drugs": 57.5,
+        "hate": 5.0,
+        "safe": 2.0,
+        "spam": 25.5,
+        "violence": 7.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.596587"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_74.mp3",
+      "file_name": "point_74.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 66.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 3.5,
+        "drugs": 66.5,
+        "hate": 7.5,
+        "safe": 1.5,
+        "spam": 11.5,
+        "violence": 9.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.651318"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_80.mp3",
+      "file_name": "point_80.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 81.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 8.0,
+        "drugs": 81.5,
+        "hate": 2.0,
+        "safe": 1.0,
+        "spam": 6.0,
+        "violence": 1.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.703172"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_86.mp3",
+      "file_name": "point_86.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 83.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 4.5,
+        "drugs": 83.5,
+        "hate": 1.5,
+        "safe": 0.0,
+        "spam": 8.0,
+        "violence": 2.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.753665"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_90.mp3",
+      "file_name": "point_90.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 57.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 6.0,
+        "drugs": 57.0,
+        "hate": 3.0,
+        "safe": 2.5,
+        "spam": 21.0,
+        "violence": 10.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.800903"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_93.mp3",
+      "file_name": "point_93.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 68.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 1.5,
+        "drugs": 68.5,
+        "hate": 6.0,
+        "safe": 1.0,
+        "spam": 12.5,
+        "violence": 10.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.854268"
+    },
+    {
+      "file_path": "dataset/test\\drugs\\point_95.mp3",
+      "file_name": "point_95.mp3",
+      "true_category": "drugs",
+      "predicted_category": "drugs",
+      "confidence": 73.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 13.0,
+        "drugs": 73.0,
+        "hate": 2.0,
+        "safe": 0.0,
+        "spam": 4.5,
+        "violence": 7.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.906582"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_12.mp3",
+      "file_name": "point_12.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 35.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 10.5,
+        "drugs": 22.5,
+        "hate": 35.5,
+        "safe": 3.5,
+        "spam": 15.0,
+        "violence": 13.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:49.956276"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_13.mp3",
+      "file_name": "point_13.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 47.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 12.5,
+        "drugs": 17.0,
+        "hate": 47.0,
+        "safe": 2.5,
+        "spam": 11.0,
+        "violence": 10.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.002267"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_16.mp3",
+      "file_name": "point_16.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 49.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 9.5,
+        "drugs": 12.5,
+        "hate": 49.0,
+        "safe": 3.5,
+        "spam": 9.0,
+        "violence": 16.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.049203"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_23.mp3",
+      "file_name": "point_23.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 40.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 11.5,
+        "drugs": 9.0,
+        "hate": 40.5,
+        "safe": 4.5,
+        "spam": 7.5,
+        "violence": 27.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.096669"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_25.mp3",
+      "file_name": "point_25.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 52.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 5.5,
+        "drugs": 8.0,
+        "hate": 52.0,
+        "safe": 5.0,
+        "spam": 11.0,
+        "violence": 18.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.143583"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_28.mp3",
+      "file_name": "point_28.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 59.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 13.0,
+        "drugs": 4.0,
+        "hate": 59.5,
+        "safe": 9.0,
+        "spam": 2.0,
+        "violence": 12.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.187256"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_29.mp3",
+      "file_name": "point_29.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 32.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 4.0,
+        "drugs": 7.0,
+        "hate": 32.5,
+        "safe": 17.0,
+        "spam": 14.5,
+        "violence": 25.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.232953"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_34.mp3",
+      "file_name": "point_34.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 52.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 5.0,
+        "drugs": 3.0,
+        "hate": 52.5,
+        "safe": 3.0,
+        "spam": 6.0,
+        "violence": 30.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.278865"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_35.mp3",
+      "file_name": "point_35.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 62.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 4.0,
+        "drugs": 6.5,
+        "hate": 62.0,
+        "safe": 8.0,
+        "spam": 6.0,
+        "violence": 13.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.326314"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_40.mp3",
+      "file_name": "point_40.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 70.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 3.5,
+        "drugs": 2.5,
+        "hate": 70.5,
+        "safe": 11.0,
+        "spam": 4.5,
+        "violence": 8.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.373020"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_47.mp3",
+      "file_name": "point_47.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 51.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 17.5,
+        "drugs": 5.5,
+        "hate": 51.5,
+        "safe": 1.0,
+        "spam": 8.0,
+        "violence": 16.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.419363"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_49.mp3",
+      "file_name": "point_49.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 45.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 5.5,
+        "drugs": 8.5,
+        "hate": 45.5,
+        "safe": 12.0,
+        "spam": 7.0,
+        "violence": 21.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.470093"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_65.mp3",
+      "file_name": "point_65.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 44.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 6.0,
+        "drugs": 12.0,
+        "hate": 44.0,
+        "safe": 12.5,
+        "spam": 15.0,
+        "violence": 10.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.517945"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_68.mp3",
+      "file_name": "point_68.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 50.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 7.5,
+        "drugs": 5.0,
+        "hate": 50.5,
+        "safe": 8.5,
+        "spam": 10.0,
+        "violence": 18.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.562840"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_71.mp3",
+      "file_name": "point_71.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 50.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 9.0,
+        "drugs": 8.0,
+        "hate": 50.5,
+        "safe": 8.5,
+        "spam": 6.0,
+        "violence": 18.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.604110"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_75.mp3",
+      "file_name": "point_75.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 56.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 4.0,
+        "drugs": 4.0,
+        "hate": 56.5,
+        "safe": 8.0,
+        "spam": 5.5,
+        "violence": 22.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.648812"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_89.mp3",
+      "file_name": "point_89.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 53.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 8.0,
+        "drugs": 7.5,
+        "hate": 53.0,
+        "safe": 9.0,
+        "spam": 5.0,
+        "violence": 17.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.694644"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_90.mp3",
+      "file_name": "point_90.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 55.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 7.0,
+        "drugs": 3.5,
+        "hate": 55.5,
+        "safe": 7.5,
+        "spam": 9.0,
+        "violence": 17.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.740582"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_92.mp3",
+      "file_name": "point_92.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 55.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 2.5,
+        "drugs": 6.0,
+        "hate": 55.5,
+        "safe": 9.5,
+        "spam": 2.0,
+        "violence": 24.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.786377"
+    },
+    {
+      "file_path": "dataset/test\\hate\\point_95.mp3",
+      "file_name": "point_95.mp3",
+      "true_category": "hate",
+      "predicted_category": "hate",
+      "confidence": 50.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 6.0,
+        "drugs": 8.5,
+        "hate": 50.5,
+        "safe": 6.5,
+        "spam": 4.5,
+        "violence": 24.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.831242"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_10.mp3",
+      "file_name": "point_10.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 67.5,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 3.5,
+        "drugs": 3.5,
+        "hate": 10.0,
+        "safe": 67.5,
+        "spam": 3.5,
+        "violence": 12.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.884951"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_21.mp3",
+      "file_name": "point_21.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 80.0,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 2.0,
+        "drugs": 1.5,
+        "hate": 4.0,
+        "safe": 80.0,
+        "spam": 2.0,
+        "violence": 10.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.937358"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_34.mp3",
+      "file_name": "point_34.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 75.5,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 1.5,
+        "drugs": 1.5,
+        "hate": 4.0,
+        "safe": 75.5,
+        "spam": 5.0,
+        "violence": 12.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:50.985535"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_4.mp3",
+      "file_name": "point_4.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 36.0,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 4.5,
+        "drugs": 6.5,
+        "hate": 17.5,
+        "safe": 36.0,
+        "spam": 9.0,
+        "violence": 26.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.033778"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_47.mp3",
+      "file_name": "point_47.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 83.0,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 1.5,
+        "drugs": 0.5,
+        "hate": 1.5,
+        "safe": 83.0,
+        "spam": 8.5,
+        "violence": 5.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.082751"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_5.mp3",
+      "file_name": "point_5.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 59.0,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 1.5,
+        "drugs": 4.5,
+        "hate": 9.0,
+        "safe": 59.0,
+        "spam": 7.0,
+        "violence": 19.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.130662"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_51.mp3",
+      "file_name": "point_51.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 31.0,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 4.5,
+        "drugs": 4.0,
+        "hate": 16.5,
+        "safe": 31.0,
+        "spam": 19.0,
+        "violence": 25.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.177624"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_55.mp3",
+      "file_name": "point_55.mp3",
+      "true_category": "safe",
+      "predicted_category": "hate",
+      "confidence": 26.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 2.5,
+        "drugs": 8.5,
+        "hate": 26.0,
+        "safe": 23.0,
+        "spam": 20.5,
+        "violence": 19.5
+      },
+      "correct_prediction": false,
+      "timestamp": "2025-09-14T14:45:51.225535"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_57.mp3",
+      "file_name": "point_57.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 31.5,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 9.0,
+        "drugs": 9.5,
+        "hate": 25.0,
+        "safe": 31.5,
+        "spam": 6.0,
+        "violence": 19.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.271745"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_66.mp3",
+      "file_name": "point_66.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 75.0,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 2.0,
+        "drugs": 4.5,
+        "hate": 4.0,
+        "safe": 75.0,
+        "spam": 8.5,
+        "violence": 6.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.317780"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_67.mp3",
+      "file_name": "point_67.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 73.0,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 2.5,
+        "drugs": 2.0,
+        "hate": 12.5,
+        "safe": 73.0,
+        "spam": 3.5,
+        "violence": 6.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.369757"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_70.mp3",
+      "file_name": "point_70.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 44.5,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 6.5,
+        "drugs": 6.5,
+        "hate": 15.5,
+        "safe": 44.5,
+        "spam": 7.0,
+        "violence": 20.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.420168"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_77.mp3",
+      "file_name": "point_77.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 81.5,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 0.5,
+        "drugs": 2.0,
+        "hate": 2.5,
+        "safe": 81.5,
+        "spam": 10.0,
+        "violence": 3.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.469120"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_79.mp3",
+      "file_name": "point_79.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 75.5,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 1.0,
+        "drugs": 0.0,
+        "hate": 4.0,
+        "safe": 75.5,
+        "spam": 1.5,
+        "violence": 18.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.516651"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_8.mp3",
+      "file_name": "point_8.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 64.0,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 3.5,
+        "drugs": 4.0,
+        "hate": 20.0,
+        "safe": 64.0,
+        "spam": 3.5,
+        "violence": 5.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.566748"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_80.mp3",
+      "file_name": "point_80.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 72.0,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 2.0,
+        "drugs": 1.5,
+        "hate": 15.5,
+        "safe": 72.0,
+        "spam": 3.0,
+        "violence": 6.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.613492"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_83.mp3",
+      "file_name": "point_83.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 75.5,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 1.5,
+        "drugs": 3.0,
+        "hate": 8.5,
+        "safe": 75.5,
+        "spam": 4.0,
+        "violence": 7.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.663079"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_90.mp3",
+      "file_name": "point_90.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 37.5,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 2.5,
+        "drugs": 2.5,
+        "hate": 18.0,
+        "safe": 37.5,
+        "spam": 17.5,
+        "violence": 22.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.709715"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_94.mp3",
+      "file_name": "point_94.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 42.0,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 3.5,
+        "drugs": 4.5,
+        "hate": 13.0,
+        "safe": 42.0,
+        "spam": 10.5,
+        "violence": 26.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.756308"
+    },
+    {
+      "file_path": "dataset/test\\safe\\point_95.mp3",
+      "file_name": "point_95.mp3",
+      "true_category": "safe",
+      "predicted_category": "safe",
+      "confidence": 45.0,
+      "is_safe": true,
+      "safety_status": "SAFE",
+      "all_probabilities": {
+        "adult": 4.0,
+        "drugs": 4.5,
+        "hate": 18.5,
+        "safe": 45.0,
+        "spam": 14.5,
+        "violence": 13.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.804989"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_10.mp3",
+      "file_name": "point_10.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 36.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 21.0,
+        "drugs": 16.0,
+        "hate": 5.0,
+        "safe": 8.0,
+        "spam": 36.5,
+        "violence": 13.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.855930"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_17.mp3",
+      "file_name": "point_17.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 56.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 20.5,
+        "drugs": 16.0,
+        "hate": 3.5,
+        "safe": 0.5,
+        "spam": 56.5,
+        "violence": 3.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:51.905885"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_21.mp3",
+      "file_name": "point_21.mp3",
+      "true_category": "spam",
+      "predicted_category": "adult",
+      "confidence": 29.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 29.5,
+        "drugs": 17.0,
+        "hate": 12.5,
+        "safe": 9.0,
+        "spam": 21.5,
+        "violence": 10.5
+      },
+      "correct_prediction": false,
+      "timestamp": "2025-09-14T14:45:51.959068"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_33.mp3",
+      "file_name": "point_33.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 39.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 20.0,
+        "drugs": 20.0,
+        "hate": 14.0,
+        "safe": 2.0,
+        "spam": 39.5,
+        "violence": 4.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.011206"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_45.mp3",
+      "file_name": "point_45.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 35.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 18.0,
+        "drugs": 10.0,
+        "hate": 7.0,
+        "safe": 8.5,
+        "spam": 35.0,
+        "violence": 21.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.065233"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_46.mp3",
+      "file_name": "point_46.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 65.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 2.5,
+        "drugs": 8.5,
+        "hate": 7.5,
+        "safe": 1.5,
+        "spam": 65.5,
+        "violence": 14.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.117729"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_49.mp3",
+      "file_name": "point_49.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 48.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 2.0,
+        "drugs": 10.0,
+        "hate": 7.5,
+        "safe": 20.0,
+        "spam": 48.5,
+        "violence": 12.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.170151"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_50.mp3",
+      "file_name": "point_50.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 60.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 2.0,
+        "drugs": 13.5,
+        "hate": 8.0,
+        "safe": 5.5,
+        "spam": 60.5,
+        "violence": 10.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.219934"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_51.mp3",
+      "file_name": "point_51.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 65.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 8.0,
+        "drugs": 12.5,
+        "hate": 5.5,
+        "safe": 2.5,
+        "spam": 65.5,
+        "violence": 6.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.270880"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_54.mp3",
+      "file_name": "point_54.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 69.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 3.5,
+        "drugs": 7.0,
+        "hate": 6.5,
+        "safe": 5.5,
+        "spam": 69.0,
+        "violence": 8.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.321996"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_56.mp3",
+      "file_name": "point_56.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 67.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 0.5,
+        "drugs": 19.0,
+        "hate": 3.0,
+        "safe": 3.5,
+        "spam": 67.5,
+        "violence": 6.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.376716"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_67.mp3",
+      "file_name": "point_67.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 48.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 6.5,
+        "drugs": 23.5,
+        "hate": 12.0,
+        "safe": 2.5,
+        "spam": 48.0,
+        "violence": 7.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.431246"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_7.mp3",
+      "file_name": "point_7.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 67.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 10.0,
+        "drugs": 9.0,
+        "hate": 9.5,
+        "safe": 1.0,
+        "spam": 67.0,
+        "violence": 3.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.480360"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_75.mp3",
+      "file_name": "point_75.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 52.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 2.5,
+        "drugs": 2.5,
+        "hate": 5.5,
+        "safe": 16.0,
+        "spam": 52.0,
+        "violence": 21.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.533086"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_8.mp3",
+      "file_name": "point_8.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 35.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 20.0,
+        "drugs": 15.0,
+        "hate": 9.5,
+        "safe": 6.0,
+        "spam": 35.5,
+        "violence": 14.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.586076"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_81.mp3",
+      "file_name": "point_81.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 49.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 10.5,
+        "drugs": 15.5,
+        "hate": 14.0,
+        "safe": 2.0,
+        "spam": 49.0,
+        "violence": 9.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.636831"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_82.mp3",
+      "file_name": "point_82.mp3",
+      "true_category": "spam",
+      "predicted_category": "hate",
+      "confidence": 29.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 11.0,
+        "drugs": 3.0,
+        "hate": 29.0,
+        "safe": 16.5,
+        "spam": 20.5,
+        "violence": 20.0
+      },
+      "correct_prediction": false,
+      "timestamp": "2025-09-14T14:45:52.687327"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_83.mp3",
+      "file_name": "point_83.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 51.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 1.5,
+        "drugs": 18.0,
+        "hate": 8.5,
+        "safe": 10.5,
+        "spam": 51.0,
+        "violence": 10.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.737433"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_95.mp3",
+      "file_name": "point_95.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 75.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 1.0,
+        "drugs": 7.0,
+        "hate": 3.0,
+        "safe": 7.0,
+        "spam": 75.5,
+        "violence": 6.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.787149"
+    },
+    {
+      "file_path": "dataset/test\\spam\\point_99.mp3",
+      "file_name": "point_99.mp3",
+      "true_category": "spam",
+      "predicted_category": "spam",
+      "confidence": 79.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 1.5,
+        "drugs": 1.5,
+        "hate": 7.5,
+        "safe": 2.5,
+        "spam": 79.0,
+        "violence": 8.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.837242"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_11.mp3",
+      "file_name": "point_11.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 53.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 10.0,
+        "drugs": 7.5,
+        "hate": 17.5,
+        "safe": 4.0,
+        "spam": 8.0,
+        "violence": 53.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.886903"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_12.mp3",
+      "file_name": "point_12.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 48.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 7.0,
+        "drugs": 14.5,
+        "hate": 15.0,
+        "safe": 9.5,
+        "spam": 6.0,
+        "violence": 48.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.935795"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_13.mp3",
+      "file_name": "point_13.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 59.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 4.0,
+        "drugs": 12.5,
+        "hate": 12.0,
+        "safe": 3.0,
+        "spam": 9.0,
+        "violence": 59.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:52.987651"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_18.mp3",
+      "file_name": "point_18.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 36.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 20.5,
+        "drugs": 8.5,
+        "hate": 10.5,
+        "safe": 17.0,
+        "spam": 7.0,
+        "violence": 36.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.033126"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_19.mp3",
+      "file_name": "point_19.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 37.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 12.5,
+        "drugs": 18.0,
+        "hate": 13.0,
+        "safe": 5.5,
+        "spam": 14.0,
+        "violence": 37.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.083853"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_26.mp3",
+      "file_name": "point_26.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 44.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 7.5,
+        "drugs": 4.0,
+        "hate": 13.5,
+        "safe": 22.5,
+        "spam": 8.0,
+        "violence": 44.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.134358"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_32.mp3",
+      "file_name": "point_32.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 59.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 5.0,
+        "drugs": 10.5,
+        "hate": 14.0,
+        "safe": 4.5,
+        "spam": 6.5,
+        "violence": 59.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.184203"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_34.mp3",
+      "file_name": "point_34.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 41.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 6.5,
+        "drugs": 12.0,
+        "hate": 20.5,
+        "safe": 4.0,
+        "spam": 16.0,
+        "violence": 41.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.237480"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_36.mp3",
+      "file_name": "point_36.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 37.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 11.5,
+        "drugs": 16.5,
+        "hate": 14.5,
+        "safe": 5.0,
+        "spam": 15.5,
+        "violence": 37.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.289096"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_37.mp3",
+      "file_name": "point_37.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 44.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 14.5,
+        "drugs": 3.5,
+        "hate": 30.0,
+        "safe": 4.0,
+        "spam": 4.0,
+        "violence": 44.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.336871"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_40.mp3",
+      "file_name": "point_40.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 33.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 6.5,
+        "drugs": 22.0,
+        "hate": 11.5,
+        "safe": 6.5,
+        "spam": 20.5,
+        "violence": 33.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.387371"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_42.mp3",
+      "file_name": "point_42.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 74.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 1.0,
+        "drugs": 1.0,
+        "hate": 11.0,
+        "safe": 8.0,
+        "spam": 5.0,
+        "violence": 74.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.434919"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_45.mp3",
+      "file_name": "point_45.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 32.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 15.0,
+        "drugs": 11.5,
+        "hate": 18.5,
+        "safe": 3.0,
+        "spam": 19.5,
+        "violence": 32.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.484670"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_46.mp3",
+      "file_name": "point_46.mp3",
+      "true_category": "violence",
+      "predicted_category": "adult",
+      "confidence": 32.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 32.5,
+        "drugs": 8.5,
+        "hate": 13.0,
+        "safe": 4.0,
+        "spam": 13.5,
+        "violence": 28.5
+      },
+      "correct_prediction": false,
+      "timestamp": "2025-09-14T14:45:53.535262"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_49.mp3",
+      "file_name": "point_49.mp3",
+      "true_category": "violence",
+      "predicted_category": "adult",
+      "confidence": 45.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 45.0,
+        "drugs": 10.5,
+        "hate": 13.5,
+        "safe": 4.0,
+        "spam": 9.0,
+        "violence": 18.0
+      },
+      "correct_prediction": false,
+      "timestamp": "2025-09-14T14:45:53.582510"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_54.mp3",
+      "file_name": "point_54.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 36.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 27.0,
+        "drugs": 5.0,
+        "hate": 13.5,
+        "safe": 2.0,
+        "spam": 16.5,
+        "violence": 36.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.632029"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_71.mp3",
+      "file_name": "point_71.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 54.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 5.0,
+        "drugs": 5.5,
+        "hate": 17.5,
+        "safe": 12.5,
+        "spam": 5.5,
+        "violence": 54.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.679424"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_87.mp3",
+      "file_name": "point_87.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 49.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 6.5,
+        "drugs": 5.0,
+        "hate": 21.0,
+        "safe": 13.0,
+        "spam": 5.0,
+        "violence": 49.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.733313"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_92.mp3",
+      "file_name": "point_92.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 39.5,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 2.5,
+        "drugs": 31.0,
+        "hate": 16.5,
+        "safe": 2.0,
+        "spam": 8.5,
+        "violence": 39.5
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.785873"
+    },
+    {
+      "file_path": "dataset/test\\violence\\point_97.mp3",
+      "file_name": "point_97.mp3",
+      "true_category": "violence",
+      "predicted_category": "violence",
+      "confidence": 46.0,
+      "is_safe": false,
+      "safety_status": "UNSAFE",
+      "all_probabilities": {
+        "adult": 7.5,
+        "drugs": 2.5,
+        "hate": 27.5,
+        "safe": 8.5,
+        "spam": 8.0,
+        "violence": 46.0
+      },
+      "correct_prediction": true,
+      "timestamp": "2025-09-14T14:45:53.833626"
+    }
+  ]
+}

@@ -132,22 +132,20 @@ For detailed installation instructions, see **[INSTALLATION_GUIDE.md](INSTALLATI
 
 ## 🎯 Quick Start
 
-### Video Frame Processing (NEW!)
-
+### Unified Multi-Modal Processing (NEW!)
 ```bash
-# Extract frames from video and analyze with all models
-python video_frame_processor.py "path/to/video.mp4" --conf 0.5
+# Auto-detect file type and process comprehensively
+python unified_multimodal_processor.py path/to/your/file.mp4
 
-# Keep extracted frames for inspection
-python video_frame_processor.py "path/to/video.mp4" --keep-frames
-
-# Custom output directory
-python video_frame_processor.py "path/to/video.mp4" --output "results/" --temp "temp_frames/"
+# Specific modes
+python unified_multimodal_processor.py image.jpg --mode image
+python unified_multimodal_processor.py audio.mp3 --mode audio
+python unified_multimodal_processor.py text.txt --mode text
 ```
 
-### Single Image Analysis (NEW!)
-
+### Single Image Analysis
 ```bash
+python single_image_analyzer.py path/to/your/image.jpg
 # Analyze single image with all 9 models
 python single_image_analyzer.py "path/to/image.jpg" --conf 0.5
 
